@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import './navbar.css';
-import logo from '../assets/logo.png';
-import cart_icon from '../assets/cart_icon.png';
+import './Navbar.css';
+import logo from '../Assets/logo.png';
+import cart_icon from '../Assets/cart_icon.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = () =>{
@@ -29,4 +29,4 @@ const Navbar = () =>{
   )
 }
 
-export default Navbar
+export default Navbar;
